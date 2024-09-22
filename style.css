@@ -1,0 +1,132 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #0066cc;
+    color: white;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #ff6600;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Section */
+.section {
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills h3 {
+    margin-bottom: 1rem;
+}
+
+/* Projects */
+.project-list .project {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+.language-switcher a {
+    color: white;
+    margin: 0 0.5rem;
+}
+
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.image-shahzaib{
+    margin-top: 50px;
+    width: 300px;
+    height: 280px;
+    border-radius: 50%;
+}
+
+@keyframes my-image{
+    0% { top: 20px; }
+    50% { top: 0px; }
+    100% { top: 20px; }
+}
+
+.image-shahzaib{
+    position: relative; /* Make sure the top property works */  
+    animation-name: my-image;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}

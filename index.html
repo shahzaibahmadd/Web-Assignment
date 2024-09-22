@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resume website of Shahzaib Ahmad, showcasing skills, projects, certifications, and more">
+    <meta name="keywords" content="resume, web developer, skills, projects, portfolio, certifications, awards">
+    <meta name="author" content="Shahzaib Ahmad">
+    <title>Resume - Shahzaib Ahmad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-brand">Shahzaib Ahmad</div>
+        <ul class="nav-links">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header">
+        <h1 id="title"></h1>
+        <p id="description"></p>
+        <a href="#contact" class="btn-primary" id="contact-btn"></a>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="soft-skills">
+                <h3>Soft Skills</h3>
+                <ul id="soft-skills-list"></ul>
+            </div>
+            <div class="hard-skills">
+                <h3>Hard Skills</h3>
+                <ul id="hard-skills-list"></ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div id="project-list"></div>
+    </section>
+
+    <!-- Awards & Certifications Section -->
+    <section id="awards" class="section">
+        <h2>Awards, Certifications & Trainings</h2>
+        <ul id="certification-list"></ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2>Education & Short Courses</h2>
+        <div id="education-list"></div>
+    </section>
+
+   
+
+    <!-- Social Media Feed -->
+    <section id="social-media" class="section">
+        <h2>Social Media Feed</h2>
+        <div class="social-feed" id="social-feed"></div>
+        <div >
+            <img class="image-shahzaib" src="/media/WhatsApp Image 2024-04-16 at 12.52.01_0cf7df2d.jpg" alt="picture">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Shahzaib Ahmad. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
